@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.container-header{
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 345px;
+}
+
+.container-divider {
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo-img {
+    width: 127px;
+}
+
+.user-img {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.painter-descr {
+    display: flex;
+    align-items: center;
+    height: 55px;  
+    padding: 0 0 0 10px;
+    width: 365px;
+}
+
+.avatar-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.painter-text {
+   width: 307px;
+   margin: 0 auto;
+   text-align: left;
+   padding: 10px 7px;
+   line-height: 20px;
+}
+
+.post-img {
+   width: 100%;
+   height: 375px;
+}
+
+.next-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+.next-btn:hover {
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.features {
+    height: 115px;
+}
+
+.container-features {  
+    padding: 0 0 15px 10px;
+    width: 365px;
+}
+
+.icons-img {
+    width: 23.3px;
+    height: 22.13px;
+    padding: 0 20px 0 0;
+}
+
+.icons-img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.features-container-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0 12px 0;
+}
+
+.like-count {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 700;
+}
+
+.user-comment {
+    display: flex;
+    text-align: left;
+    padding: 12px 0 0 0;
+}
+
+.user-email {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
